@@ -1,0 +1,340 @@
+@font-face {
+  font-family: "ghs";
+  src: url("font/Contage_Bold.ttf") format("truetype");
+}
+
+* {
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen,
+    ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial,
+    sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/*
+@media only screen and (max-width: 370px) {
+  .nav {
+    width: 100%;
+    background-color: #0075c6;
+    position: fixed;
+    z-index: 9;
+    box-shadow: 3px 5px 8px rgba(0, 0, 0, 0.281);
+  }
+  .nav a {
+    display: none;
+  }
+  #nav_btn {
+    display: block;
+    float: right;
+  }
+}
+/*
+@media screen and (min-width: 700px) {
+  #nav_btn {
+    display: none;
+  }
+  .nav strong {
+    display: none;
+  }
+  #header {
+    display: none;
+  }
+  .nav a {
+    display: block;
+    color: #ffffff;
+  }
+  .nav {
+    text-align: right;
+    display: flex;
+    background-color: #007adc;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+  }
+}
+*/
+.nav strong {
+  font-weight: bolder;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 2px;
+  letter-spacing: 8px;
+  font-family: Comic Sans MS;
+}
+
+/*--------------------------------------------------------------
+
+# Header
+
+--------------------------------------------------------------*/
+#header {
+  position: fixed;
+  top: 56px;
+  bottom: 0;
+  width: 80%;
+  transition: all ease-in-out 0.5s;
+  z-index: 9997;
+  transition: all 0.5s;
+  padding: 0 15px;
+  background: #005c73;
+  overflow-y: auto;
+}
+
+.show {
+  display: block;
+}
+
+#header .profile img {
+  margin: 15px auto;
+  display: block;
+  width: 120px;
+  height: 120px;
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+}
+
+#header .profile h1 {
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  -moz-text-align-last: center;
+  text-align-last: center;
+  font-family: "Poppins", sans-serif;
+}
+
+#header .profile h1 a,
+#header .profile h1 a:hover {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+#header .profile .social-links 6a {
+  font-size: 18px;
+  display: inline-block;
+  background: #212431;
+  color: #fff;
+  line-height: 1;
+  border: 1px solid #ffffff;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: ease-in-out 0.5s;
+  text-decoration: none;
+}
+#header .profile .social-links img {
+  width: 35px;
+  height: 35px;
+  align-items: center;
+  display: inline-block;
+  margin: 0 2px;
+}
+#header .profile .social-links a:hover {
+  text-decoration: none;
+}
+
+#main {
+  margin-left: 300px;
+}
+
+@media (max-width: 1700px) {
+  #header {
+    left: -300px;
+    display: none;
+  }
+
+  #main {
+    margin-left: 0;
+  }
+}
+
+/* Mobile Navigation */
+
+.mobile-nav-toggle {
+  right: 15px;
+  top: 15px;
+  z-index: 9998;
+  border: 0;
+  font-size: 25px;
+  transition: all 0.4s;
+  outline: none !important;
+  background-color: #149ddd;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+/* Desktop Navigation */
+
+.nav-menu {
+  padding: 30px 0 0 0;
+}
+
+.nav-menu * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-menu > ul > router-link {
+  position: relative;
+  white-space: nowrap;
+}
+
+.nav-menu a,
+.nav-menu {
+  display: flex;
+  align-items: left;
+  text-align: left;
+  color: #ffffff;
+  padding: 12px 10px;
+  width: 250px;
+  margin-bottom: 5px;
+  transition: 0.3s;
+  font-size: 18px;
+  font-weight: bolder;
+  text-decoration: none;
+  transition: ease all 0.7s;
+}
+.nav-menu a:hover {
+  text-decoration: none;
+  transition: ease all 0.7s;
+  color: #91c5ff;
+  background-color: #004a5c;
+  padding: 5px 40px;
+  border-radius: 6px;
+  border: 1px solid #ffffff;
+}
+/* Mobile Navigation */
+
+.mobile-nav-active {
+  overflow: hidden;
+  display: block;
+}
+
+.mobile-nav-active #header {
+  left: 0;
+}
+
+/*
+
+.ghs_profile {
+  padding: 15px 8px;
+  margin: 10px 2px;
+  border: 1px solid #aaaaaa;
+  border-radius: 5px;
+}
+
+.ghs_profile img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-color: #0092b7;
+  border-width: 3px;
+  border-style: double;
+  border-radius: 50%;
+  padding: 2px;
+}
+.ghs_profile strong {
+  font-size: 25px;
+  color: #0092b7;
+  font-weight: bolder;
+  font-family: Comic Sans MS;
+}
+.ghs_profile h3 {
+  font-size: 14px;
+  color: #747474;
+  font-weight: bolder;
+  font-family: serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.ghs_profile .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #006e8a;
+  color: #fff;
+  line-height: 1;
+  border: 1px solid #6ce2ff;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: all ease-in-out 0.5s;
+  text-decoration: none;
+  font-family: serif;
+  font-weight: bolder;
+}
+
+.ghs_profile .social-links a:hover {
+  transition: all ease-in-out 0.3s;
+  background: #00495c;
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  box-shadow: 3px 8px 8px rgba(0, 0, 0, 0.226);
+}
+.ghs_profile hr {
+  color: #f00;
+  width: 100%;
+  border-color: #0092b7;
+  border-style: double;
+  border-width: 5px;
+  border-radius: 20%;
+}
+.ghs_profile #action_btn {
+  outline: none;
+  border: none;
+  font-weight: bolder;
+  font-family: Consolas;
+  font-size: 14px;
+  background-color: #009ef9;
+  color: #fff;
+  margin: 2px 5px;
+  padding: 3px 15px;
+  border-radius: 12px;
+  transition: all ease-in-out 0.5s;
+}
+.ghs_profile #action_btn:hover {
+  transition: all ease-in-out 0.5s;
+  background-color: #006e8a;
+  font-size: 16px;
+  box-shadow: 3px 8px 8px #b5b5b5;
+}
+.ghs_profile h5 {
+  text-align: left;
+  font-family: Consolas;
+  font-weight: bolder;
+  font-size: 18px;
+  color: #00bdec;
+}
+.ghs_profile ul,
+li {
+  list-style: none;
+  text-align: left;
+  padding: 5px 0;
+  margin: 5px 0;
+  font-size: 18px;
+  color: #5b5b5b;
+  font-weight: bolder;
+  font-family: ghs;
+}
+
+.hide {
+  display: none;
+}
+*/
