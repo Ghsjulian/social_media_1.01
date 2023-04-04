@@ -42,7 +42,9 @@ Programmer | PHP Developer & Programmer | Programmer Ghs Julian
 <div class="abt">
   <h2 class="abt_header">Web Developer</h2>
   <center>
-    <img class="logo" src="images/ghs.png" />
+  ### [+] Screenshots 1
+
+![CAPTURE 1](images/ghs.png)
 </center>
 <div class="content_area">
   <span class="big">Hi</span>, I'm <a href="#">Juliee</a> . I'm A Web
