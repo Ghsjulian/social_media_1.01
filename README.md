@@ -44,7 +44,7 @@ Programmer | PHP Developer & Programmer | Programmer Ghs Julian
   <center>
   ### [+] Screenshots 1
 
-![CAPTURE 1](images/ghs.png)
+![CAPTURE 1]('images/ghs.png')
 </center>
 <div class="content_area">
   <span class="big">Hi</span>, I'm <a href="#">Juliee</a> . I'm A Web
