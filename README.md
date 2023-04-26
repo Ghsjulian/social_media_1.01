@@ -50,6 +50,13 @@ Programmer | PHP Developer & Programmer | Programmer Ghs Julian
 ![CAPTURE 1](/images/4.jpg)
 ![CAPTURE 1](/images/5.jpg)
 ![CAPTURE 1](/images/6.jpg)
+![CAPTURE 1](/images/7.jpg)
+
+![CAPTURE 1](/images/8.jpg)
+
+![CAPTURE 1](/images/9.jpg)
+
+![CAPTURE 1](/images/10.jpg)
 
 
 </center>
