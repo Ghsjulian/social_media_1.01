@@ -44,12 +44,12 @@ Programmer | PHP Developer & Programmer | Programmer Ghs Julian
   <center>
   ### [+] Screenshots 1
 
-![CAPTURE 1](/images/20230402_172237.jpg)
-![CAPTURE 1](/images/20230402_180713.jpg)
-![CAPTURE 1](/images/20230402_180707.jpg)
-![CAPTURE 1](/images/20230402_180658.jpg)
-![CAPTURE 1](/images/20230402_180646.jpg)
-![CAPTURE 1](/images/20230402_172237.jpg)
+![CAPTURE 1](/images/1.jpg)
+![CAPTURE 1](/images/2.jpg)
+![CAPTURE 1](/images/3.jpg)
+![CAPTURE 1](/images/4.jpg)
+![CAPTURE 1](/images/5.jpg)
+![CAPTURE 1](/images/6.jpg)
 
 
 </center>
