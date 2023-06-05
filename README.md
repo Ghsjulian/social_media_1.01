@@ -4,7 +4,9 @@ http://ghs.rf.gd/login.php
 Download  The Android App :
 https://drive.google.com/file/d/1CGGcLyvTr7MrA5UFtww9L8bfObXBVOtC/view?usp=drivesdk
 
+Download The APK File To Install Your Phone !
 
+If You Don't Wanna Install It So Directly Visit Here http://ghs.rf.gd/
 
 
 
