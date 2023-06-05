@@ -13,22 +13,17 @@ https://drive.google.com/file/d/1CGGcLyvTr7MrA5UFtww9L8bfObXBVOtC/view?usp=drive
 
 
   ### [+] Screenshots 1
-
-![CAPTURE 1](/images/1.jpg)
-![CAPTURE 1](/images/2.jpg)
-![CAPTURE 1](/images/3.jpg)
-![CAPTURE 1](/images/4.jpg)
-![CAPTURE 1](/images/5.jpg)
-![CAPTURE 1](/images/6.jpg)
-![CAPTURE 1](/images/7.jpg)
-
-![CAPTURE 1](/images/8.jpg)
-
-![CAPTURE 1](/images/9.jpg)
-
-![CAPTURE 1](/images/10.jpg)
-
-
+<center>
+<img src="/images/1.jpg" width="200" height="200">
+<img src="/images/2.jpg" width="200" height="200">
+<img src="/images/3.jpg" width="200" height="200">
+<img src="/images/4.jpg" width="200" height="200">
+<img src="/images/5.jpg" width="200" height="200">
+<img src="/images/6.jpg" width="200" height="200">
+<img src="/images/7.jpg" width="200" height="200">
+<img src="/images/8.jpg" width="200" height="200">
+<img src="/images/9.jpg" width="200" height="200">
+<img src="/images/10.jpg" width="200" height="200">
 </center>
 <div class="content_area">
   <span class="big">Hi</span>, I'm <a href="#">Juliee</a> . I'm A Web
