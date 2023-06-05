@@ -11,37 +11,7 @@ https://drive.google.com/file/d/1CGGcLyvTr7MrA5UFtww9L8bfObXBVOtC/view?usp=drive
 
 
 
-<!DOCTYPE html>
-  <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-  <meta
-  name="viewport"
-  content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-<meta
-name="description"
-content="G H S J U L I A  N | Ghs Julian | Web Developer And Designer | Ghs Julian Programmer | PHP Developer & Programmer | Programmer Ghs Julian"/>
-<meta
-name="author"
-content="G H S J U L I A  N | Ghs Julian | Web Developer And Designer | Ghs Julian Programmer | PHP Developer & Programmer | Programmer Ghs Julian"/>
-<title>
-G H S J U L I A N | Ghs Julian | Web Developer And Designer | Ghs Julian
-Programmer | PHP Developer & Programmer | Programmer Ghs Julian
-</title>
-<link rel="stylesheet" type="text/css" href="css/w3.css" />
-<link rel="stylesheet" type="text/css" href="css/i4ndex.css" />
-<link rel="stylesheet" type="text/css" href="css/home.css" />
-<link rel="stylesheet" type="text/css" href="css/update_info.css" />
-<link rel="stylesheet" type="text/css" href="css/popup.css" />
-<link rel="stylesheet" type="text/css" href="css/login.css" />
-<link rel="stylesheet" href="css/nav.css" />
-<link rel="stylesheet" href="css/bts.min.css" />
-<script src="js/jquery.min.js"></script>
-</head>
-<body>
-<div class="abt">
-  <h2 class="abt_header">Web Developer</h2>
-  <center>
+
   ### [+] Screenshots 1
 
 ![CAPTURE 1](/images/1.jpg)
